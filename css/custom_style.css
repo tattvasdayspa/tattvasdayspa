@@ -1,0 +1,29 @@
+#gallery-section {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Side-by-side verticals, even on mobile */
+.vertical-pair {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.vertical-pair img {
+  width: 48%;
+}
